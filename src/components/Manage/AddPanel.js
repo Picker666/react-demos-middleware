@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { compose, bindActionCreators } from 'redux';
-import {connect} from 'react-redux'
-import { AddStaff, ChangeStaffData } from '../../HOC';
-import { addAction, changeAction } from '../../../redux/company';
+import {connect} from 'react-redux';
+import { AddStaff, ChangeStaffData } from '../HOC';
+import { addAction, changeAction } from '../../redux/company';
 
 const Enhancer = compose(ChangeStaffData, AddStaff);
 

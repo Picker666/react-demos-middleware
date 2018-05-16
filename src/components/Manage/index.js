@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { compose, bindActionCreators } from 'redux';
 import {connect} from 'react-redux'
-import { AddStaff, ChangeStaffData, DeleteStaff, ShowStaffMsg } from '../../HOC';
+import { AddStaff, ChangeStaffData, DeleteStaff, ShowStaffMsg } from '../HOC';
 import AddPanel from './AddPanel';
 // import { list } from 'postcss';
-import { addAction, deleteAction, changeAction, showAction } from '../../../redux/company';
+import { addAction, deleteAction, changeAction, showAction } from '../../redux/company';
 import './index.scss';
 
 
